@@ -4,7 +4,7 @@ A comprehensive Excel-based dashboard project that analyzes **Global Superstore 
 
 ![Retail Sales Dashboard](https://github.com/glcapitan/Excel-Data-Analysis-Dashboard/blob/main/Dashboard.png)
 
-> *Note: This dashboard was built using pivot tables, slicers, and charts in MS Excel.*
+> *Note: This dashboard was built using pivot tables, slicers, VBA, Office Scripts, and charts in MS Excel.*
 
 ---
 
