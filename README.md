@@ -1,27 +1,29 @@
 # Sales-Performance-Dashboard (Interactive Dashboard using MS Excel)
 
 ## 📌 Project Objective
-The purpose of this project is to visualize and analyze company-wide sales data to help key decision-makers monitor performance, identify trends, and uncover opportunities for increased profitability.
-
-The dashboard highlights sales revenue, costs, profits, order trends, customer payment behaviors, and geographic contributions.
+- Track key sales performance metrics (Revenue, Profit, Orders).
+- Identify top-selling products, regions, and customer behaviors.
+- Analyze delivery patterns and their impact on returns.
+- Use statistical testing (T-test) to validate operational hypotheses.
+- Recommend actionable strategies based on data..
 
 ---
 
 ## 📊 Dataset
 *The dataset used contains monthly sales transactions categorized by product category, region, payment method, and order status for the year 2024–2025.*  
-*(Note: Dummy data used for analysis purposes only.)*
+https://github.com/glcapitan/Excel-Data-Analysis-Dashboard/tree/main/Dataset
+
 
 ---
 
 ## ❓ Business Questions / KPIs Answered
-- What are the total Sales, Costs, Net Profit, and Order Count?
-- Which countries generate the most revenue?
-- Which product categories are the most and least profitable?
-- How are sales, costs, and profits trending monthly?
-- What is the daily revenue trend?
-- Which payment methods are most preferred by customers?
-- What is the completion vs. return rate of total orders?
-- What insights can we derive from combining filters like Country and Category?
+- What is the total Sales Revenue, Total Cost, and Net Profit for the current month?
+- How are monthly trends evolving for Revenue, Cost, and Profit?
+- What are the sales and profit contributions of each product category?
+- Which countries are generating the highest revenue?
+- What are the most used customer payment methods?
+- Which day of the week brings in the highest sales revenue?
+- What percentage of orders are Completed vs Returned?
 
 ---
 
@@ -36,30 +38,79 @@ The dashboard highlights sales revenue, costs, profits, order trends, customer p
 
 ## 📈 Dashboard Preview
 
-![Sales Analytics Dashboard Preview](./images/dashboard-preview.png)  
-*(Add screenshot or link here if uploading to GitHub)*
+![Sales Analytics Dashboard Preview](https://github.com/glcapitan/Excel-Data-Analysis-Dashboard/blob/main/Dashboard.png)
 
 ---
 
-## 💡 Insights
-- **Sales Revenue** reached $45,606 with a +19.1% MoM increase.
-- **Total Cost** was $29,965 (up by +27.4%).
-- **Net Profit** of $15,641 with a positive trend of +5.8%.
-- **Total Orders** placed: 35, with a 40% MoM increase.
-- **Top Revenue-Generating Country**: United States.
-- **Top Product Category**: Electronics.
-- **Most Used Payment Method**: Mobile Money (29%).
-- **Peak Sales Day**: Monday (highest daily revenue).
-- **Order Status**: 55% Completed, 45% Returned — return rate is significant and needs investigation.
+## 📈 Key Insights
+- **Total Sales Revenue:** `$31,407`  
+  ⬆️ 18.2% increase from the previous month
+
+- **Net Profit:** `$10,920`  
+  🔻 9.2% decrease compared to June 2025
+
+- **Total Orders:** `19`  
+  - ✅ 63% Completed  
+  - 🔄 37% Returned
+
+- **Top Performing Days (by Revenue):**
+  - 🥇 Wednesday: `$80,422`
+  - 🥈 Friday: `$73,214`
+
+- **Popular Payment Methods:**
+  - 🏦 Bank Transfer: 38%
+  - 📱 Mobile Money: 23%
+  - 💵 Cash: 22%
+
+- **Top Countries by Sales:**
+  - 🇺🇸 United States
+  - 🇳🇬 Nigeria
+  - 🇦🇺 Australia
+
+- **High-Performing Categories:**
+  - 📚 Books
+  - 💻 Electronics
+
+## 📈 Descriptive Statistics
+
+- **Average Delivery Time:** `7.85 days`  
+  - Mode: `6 days`  
+  - Standard Deviation: `3.89`  
+  → Indicates moderate variability in delivery performance
+
+- **Average Unit Price:** `$496.95`
+
+- **Average Total Cost per Order:** `$1,724.77`
+
+- **Average Net Profit per Order:** `$926.66`
+
+## 📊 Inferential Analysis – T-Test
+
+**Hypothesis Tested:**
+
+- **Null (H₀):** Delivery time does not affect return status  
+- **Alternative (H₁):** Longer delivery times increase the chance of returns
+
+🧠 Result: Evidence suggests **longer delivery times are linked to higher return rates**, supporting the alternative hypothesis.
 
 ---
 
-## ✅ Final Conclusion
-This dashboard provides executives and analysts with a clear, consolidated view of company performance. A few strategic takeaways:
-- Focus marketing campaigns around top-performing countries and products.
-- Improve customer satisfaction and reduce returns by analyzing return reasons.
-- Optimize inventory and staffing based on daily revenue patterns.
-- Consider promoting or streamlining Mobile Money and Credit Card options for convenience.
+## ✅ Recommendations
+
+1. **Improve Delivery Efficiency**  
+   - Delays may be increasing return rates; streamline logistics to enhance customer satisfaction.
+
+2. **Capitalize on Peak Days (Wed & Fri)**  
+   - Target promotions and campaigns on these high-revenue days.
+
+3. **Focus on Bank Transfer Users**  
+   - With 38% using this method, optimize transaction flows and offer incentives.
+
+4. **Promote Top-Selling Categories**  
+   - Boost sales of Books and Electronics with bundles or limited-time deals.
+
+5. **Analyze Return Causes Further**  
+   - Identify specific reasons behind returns to reduce rate and improve retention.
 
 ---
 
